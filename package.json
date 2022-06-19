@@ -1,0 +1,22 @@
+{
+  "name": "tgbotpars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "PasrseScript.js",
+  "scripts": {
+    "dev": "nodemon botStart.js",
+    "start": "start PasrseScript.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "fs": "^0.0.1-security",
+    "nodemon": "^2.0.16",
+    "puppeteer": "^14.4.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "node-telegram-bot-api": "^0.57.0",
+    "telegraf": "^4.8.1"
+  }
+}
